@@ -12,8 +12,8 @@ http://www.oreillyschool.com/individual-courses/python3/
 
 ======================================================================
 Python 3: The Python Environment
-In this course, you will learn more high-end techniques and strategies for programming with Python.
 
+In this course, you will learn more high-end techniques and strategies for programming with Python.
 Upon completion of this course you will be able to:
 
 + Parse command-line arguments and perform string validation.
