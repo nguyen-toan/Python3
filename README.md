@@ -4,7 +4,9 @@ Python3
 This repository contains lessons, quizzes and homework projects in the "Python 3: The Python Environment" online course 
 created by "O'Reilly School of Technology".
 You can find related information at :
+
 http://www.oreillyschool.com/certificate-programs/python-programming/
+
 http://www.oreillyschool.com/individual-courses/python3/
 
 
