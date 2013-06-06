@@ -2,7 +2,10 @@ Python 3: The Python Environment
 Lesson 12, Project 1
 
 Here are your instructions:
-Create a Python3_Homework12 project and assign it to your Python3_Homework working set. In the Python3_Homework12/src folder, copy property_address.py and test_property_address.py from the last project. Modify property_address.py to accept the following options if called directly, with the five address values used to instantiate an Address class if no parser errors are thrown.
+Create a Python3_Homework12 project and assign it to your Python3_Homework working set. 
+In the Python3_Homework12/src folder, copy property_address.py and test_property_address.py from the last project. 
+Modify property_address.py to accept the following options if called directly, with the five address values used to 
+instantiate an Address class if no parser errors are thrown.
 
 option default address? task 
 -l/--level INFO yes Sets the log level to DEBUG, INFO, WARNING, ERROR, and CRITICAL 
@@ -19,7 +22,9 @@ property_address.py -n Tom -a "my street" -c "San Diego" -s "CA" -z 21045
 ...you should see something like this in property_address.log:
 
 2010-10-11 14:48:59,794 - INFO - __init__ - Creating a new address 
-Note: When you use the ${string_prompt} or direct input option in the Eclipse run configuration, you can't use single quotes ('). If your input requires quotes, use double quotes ("), so the full string is parsed rather than breaking at white space.
+Note: When you use the ${string_prompt} or direct input option in the Eclipse run configuration, 
+you can't use single quotes ('). If your input requires quotes, use double quotes ("), so the full string is parsed 
+rather than breaking at white space.
     
 If you run your code without command-line arguments, you should see:
 
@@ -35,30 +40,42 @@ content appended to property_address.log
 2010-10-11 17:10:32,702 - ERROR - ZipCodeError - ZIPCODE exception 
 Note: Your date and time values will vary.
 
-Now, modify your propertyaddress.py program to use the configparser library to load the settings from the following property_address.cfg config file: 
+Now, modify your propertyaddress.py program to use the configparser library to load the settings from the 
+following property_address.cfg config file: 
 
 propertyaddress.cfg
-[log]format = %(asctime)s - %(name)s - %(levelname)s - %(message)soutput = homework12.log[validators]zip_code = \d{5}\-\d{4}$state = [A-Z]{3}$
+[log]
+format = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+output = homework12.log
+[validators]
+zip_code = \d{5}\-\d{4}$
+state = [A-Z]{3}$
+
 As you can see, the log formatting, log output, and Address validators are different from what you currently have.
 
 Your project must meet the following conditions:
 
-Change the tests in test_property_address.py so they run correctly. Also, the results of your logfile should appear as below:
+Change the tests in test_property_address.py so they run correctly. 
+Also, the results of your logfile should appear as below:
 
 content appended to homework12.log
-2010-10-11 17:34:38,968 - root - ERROR - STATE exception2010-10-11 17:34:39,098 - root - ERROR - ZIPCODE exception2010-10-11 17:34:39,112 - root - INFO - Creating a new address2010-10-11 17:34:39,113 - root - ERROR - NAME exception2010-10-11 17:34:39,113 - root - INFO - Creating a new address2010-10-11 17:34:39,113 - root - INFO - Creating a new address 
+2010-10-11 17:34:38,968 - root - ERROR - STATE exception
+2010-10-11 17:34:39,098 - root - ERROR - ZIPCODE exception
+2010-10-11 17:34:39,112 - root - INFO - Creating a new address
+2010-10-11 17:34:39,113 - root - ERROR - NAME exception
+2010-10-11 17:34:39,113 - root - INFO - Creating a new address
+2010-10-11 17:34:39,113 - root - INFO - Creating a new address 
 Note: Your date and time values will vary.
 
-Submit property_address.py, and test_property_address.py, and property_address.cfg when your programs are working to your satisfaction.
+Submit property_address.py, and test_property_address.py, and property_address.cfg 
+when your programs are working to your satisfaction.
 
 Your Comment:
 The homework requires the "NAME exception" output in the logfile 
 but I did not see any requirement on implementing it in the homework description.
 Did I miss something?
-Items Handed In
-Open Project Handed In 
+
 Overall Comments:
 Well done.
-
 The name setter may have acquired a logging capability along the way in the author's 
 version but I don't require it.  The AttributeError test is enough.
