@@ -1,0 +1,33 @@
+Python 3: The Python Environment
+Lesson 3, Quiz 2
+
+Question 1:
+With a single line of code, what is the most efficient way to loop through a million numbers? What is the technique called?
+
+Your Answer:
+gen = (i for i in range(0, 1000000))
+The technique is using generator expression.
+Mentor Comments:
+none
+Question 2:
+What is the difference between list comprehension and a generator expression?
+
+Your Answer:
+When the generated result needs to be stored and iterated over multiple times, a list comprehensions is preferred since a generator expression only iterates once.
+When the data range is large or infinite, a generator expression is more suitable since it creates items on the fly and uses less memory, while a list comprehension will create the entire list in the memory and thus inefficient.
+Mentor Comments:
+yes, infinite items in memory is not only inefficient it's inconvenient . :-D
+Question 3:
+What is the tool used in the correct answer to question 1 above?
+
+list comprehension 
+tuple 
+generator expression
+list generator 
+None of the above
+Your Answer:
+3. generator expression
+Mentor Comments:
+none
+Overall Comments:
+Good answers.  One comment.
