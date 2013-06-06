@@ -1,0 +1,26 @@
+Python 3: The Python Environment
+Lesson 4, Quiz 2
+
+Question 1:
+Provide a regular expression pattern that will find 3 adjacent digits.
+
+Your Answer:
+r"\d\d\d"
+Mentor Comments:
+none
+Question 2:
+If a re.match() or re.search() fails to find anything, what kind of object does it return?
+
+Your Answer:
+"None" object
+Mentor Comments:
+none
+Question 3:
+What method returns the found pattern string in a match object?
+
+Your Answer:
+group()
+Mentor Comments:
+none
+Overall Comments:
+Perfect.
