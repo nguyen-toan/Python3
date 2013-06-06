@@ -1,0 +1,80 @@
+Python 3: The Python Environment
+Lesson 2, Project 1
+
+Here are your instructions:
+Create a Python3_Homework02 project and assign it to your Python3_Homework working set. 
+In the Python3_Homework02/src folder, create a file named coconuts.py, with an inventory class that tracks 
+different types of coconuts from around the world. The different types of coconuts must have these weight 
+attribute values:
+
+    Type       Weight 
+South Asian      3 
+Middle Eastern  2.5 
+American        3.5 
+
+The inventory class must have the following methods:
+
++ add_coconut() accepts a coconut as an argument. Other types throw an AttributeError. 
++ total_weight() provides the total weight of coconuts.
+
+For this project, you may find the isinstance built-in useful.
+You must Include a test_coconuts.py program to confirm all the Inventory class methods. The tests must check:
+
+That different coconut types each have a different weight. 
+That if a string object is passed to the Inventory.add_coconut method, an AttributeError is thrown. 
+That if 2 South Asian, 1 Middle Eastern, and 3 American coconuts are added to the inventory, the Inventory.total_weight() method returns 19.
+When they are working, submit coconuts.py and test_coconuts.py.
+
+------
+Overall Comments:
+Very close.
+
+    def test_inventory_attribute(self):
+        """
+        Test ensuring if a string object is passed to the Inventory.add_coconut method, an AttributeError is thrown. 
+        """
+        self.assertRaises(AttributeError, getattr, Inventory.add_coconut, "South Asian")
+
+This tries to get an attribute of the Inventory_add_count method called "South Asian", which 
+that method does not have.  But nor should it.
+
+Best to provide Inventory with an __init__ such that inv = Inventory( ) creates an instance of an
+inventory with its own list for coconuts, distinct from the list other inventories might have.
+
+    def __init__(self):
+        self.inventory = []
+
+so now the question is, when you go:
+
+   inv = Inventory( )
+   inv.add_coconut("not a coconut")
+
+do you get an AttributeError?  The way to test that would be:
+
+    def test_inventory_attribute(self):
+        """
+        Test ensuring if a string object is passed to the Inventory.add_coconut method, an AttributeError is thrown. 
+        """
+        inv = Inventory()
+        self.assertRaises(AttributeError, inv.add_coconut, "South Asian")  # string "South Asian" is the argument for the callable add_coconut
+
+Looking forward to your next draft.
+
+
+------
+Overall Comments:
+Excellent.
+
+Another way to pre-define the Coconut types / weights is like this:
+
+class Coconut:
+    pass
+
+class SouthAsian(Coconut):
+    weight = 3
+
+class MiddleEastern(Coconut):
+    weight = 2.5
+
+class American(Coconut):
+    weight = 3.5
