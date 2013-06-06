@@ -9,30 +9,29 @@ Properties are more specific than special attribute methods.
 Properties allow computations to accesses involving a specific attribute, 
 so we can easily extend a subclass with different behavior on that attribute 
 without rewriting the __getattr__() method.
-Mentor Comments:
-none
+
 Question 2:
 What is the customary prefix character on the storage field of a property? 
 
 Your Answer:
 _
-Mentor Comments:
-none
+
 Question 3:
 What is the decorator for turning the time() method into a property setter? Your answer should replace the ??? below: 
 
-???def time(self, value):  self._time = value
+???
+def time(self, value):  
+    self._time = value
+
 Your Answer:
 @time.setter
-Mentor Comments:
-none
+
 Question 4:
 What is the decorator for turning the time() method into a property getter--what replaces the ??? below? 
 
-???def time(self): return self._time
+???
+def time(self): 
+    return self._time
+
 Your Answer:
 @property
-Mentor Comments:
-none
-Overall Comments:
-Perfect.
