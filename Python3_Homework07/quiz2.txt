@@ -6,31 +6,21 @@ In Left + Right, which object is having its '+' or __add__ method called?
 
 Your Answer:
 Left
-Mentor Comments:
-none
+
 Question 2:
 If the Broccoli class presents the same API as Cauliflower, in programming terms, what is that called? 
 
 Your Answer:
 Polymorphism
-Mentor Comments:
-none
+
 Question 3:
 What do you call a method in a base class designed to remind the developer to extend it to be a real method? 
 
-
 Your Answer:
 Abstract method
-Mentor Comments:
-none
+
 Question 4:
 If you want to extend a method instead of overriding it, what Python builtin do you use? 
 
-
-
 Your Answer:
 super()
-Mentor Comments:
-none
-Overall Comments:
-Excellent.
