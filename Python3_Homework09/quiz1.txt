@@ -1,0 +1,32 @@
+Python 3: The Python Environment
+Lesson 9, Quiz 1
+
+Question 1:
+What is the alternative name for special methods?
+
+Your Answer:
+magic methods
+Mentor Comments:
+none
+
+Question 2:
+Which special method is called by the print() built-in?
+
+
+Your Answer:
+__str__()
+Mentor Comments:
+none
+
+Question 3:
+Trick question! If __setattr__ sets attributes and __delattr__ deletes attributes, what method gets attributes?
+
+
+Your Answer:
+__getattribute__
+Mentor Comments:
+I'll accept that.  val = obj.attr triggers __getattribute__ (as distinct from __getattr__) 
+which automates the hunt along the MRO in all relevant __dict__s for a resolving 
+key / name.  Failing that, __getattr__ is fired (if present) as a last resort.
+Overall Comments:
+Excellent.  See comments.
