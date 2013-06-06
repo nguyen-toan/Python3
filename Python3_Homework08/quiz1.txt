@@ -8,31 +8,26 @@ Your Answer:
 ASCII only supports 128 characters while Unicode supports much more characters.
 Unicode can encode every possible languages but ASCII is only used for frequent American English encoding.
 Unicode use 8, 16 or 32 bit characters based on different presentation while ASCII is seven-bit encoding formula.
+
 Mentor Comments:
 yes, a fasinating history.  Original ASCII is 7-bits to encode a character with 8th bit reserved for "parity check".
 When that became unnecessary (integrity checks still happen but by different algorithms), the 8th bit was 
 committed to representing, and 128 became 256 in what was called "extended ASCII".  IBM's for the 286 /386
 was one of the most popular:
-
-http://telecom.tbi.net/asc-ibm.html   (note many of the characters were for drawing boxes and lines
-on the screen).
+http://telecom.tbi.net/asc-ibm.html   (note many of the characters were for drawing boxes and lines on the screen).
 
 Question 2:
 What module does Python use to interact with binary data?
 
-
 Your Answer:
 struct
-Mentor Comments:
-none
+
 Question 3:
 What do the pack() and unpack() methods of the struct module do?
-
 
 Your Answer:
 pack() returns a string containing the argument values packed according to the given format.
 unpack() unpacks a string packed by pack() and returns a tuple.
-Mentor Comments:
-none
+
 Overall Comments:
 Well done.  See "memory lane" comments (history of ASCII).
