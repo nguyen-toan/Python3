@@ -1,0 +1,25 @@
+Python 3: The Python Environment
+Lesson 6, Quiz 2
+
+Question 1:
+How would you write a compiled regular expression to find the name "John Smith" in case-insensitive format?
+
+
+Your Answer:
+re.compile(r"John Smith", re.IGNORECASE)
+Mentor Comments:
+none
+Question 2:
+How would you rewrite the compiled regular expression above to include verbose comments?
+
+
+
+Your Answer:
+re.compile(r"John\sSmith", re.IGNORECASE | re.VERBOSE)
+Mentor Comments:
+re.compile(r"""John
+                     \s
+                     Smith""", 
+re.IGNORECASE | re.VERBOSE)
+Overall Comments:
+All perfect now.
