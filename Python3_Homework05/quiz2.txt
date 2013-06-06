@@ -1,0 +1,21 @@
+Python 3: The Python Environment
+Lesson 5, Quiz 2
+
+Question 1:
+Write a pattern that matches a sequence of one or more lower-case letters between a and h, all lowercase.
+
+Your Answer:
+r"[a-h]+"
+Mentor Comments:
+none
+
+Question 2:
+If the pattern "((?P<letters>[A-Za-z]+)\d+ +)+" is matched against the string "ABC123 DEF234 GHI345" to give a match object m, how would you retrieve the string matched by the "letters" group, and what would it contain?
+
+Your Answer:
+Code  : m.group('letters')
+Result: 'DEF'
+Mentor Comments:
+none
+Overall Comments:
+All correct.
