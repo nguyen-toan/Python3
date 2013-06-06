@@ -6,21 +6,15 @@ What is the best way to validate a string that is supposed to represent a date?
 
 Your Answer:
 Using the strptime() method to check its date format
-Mentor Comments:
-none
+
 Question 2:
 Using datetime.datetime, how do I construct a datetime object for '07-24-1985 2:00 AM'?
 
 Your Answer:
 datetime(1985, 07, 24, 2)
-Mentor Comments:
-none
+
 Question 3:
 If my_date is the name of my datetime object, how do I get its hour?
 
 Your Answer:
 my_date.hour
-Mentor Comments:
-none
-Overall Comments:
-Good work.
