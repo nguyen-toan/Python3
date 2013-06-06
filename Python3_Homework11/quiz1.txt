@@ -6,15 +6,13 @@ What are the five basic levels of the logging module?
 
 Your Answer:
 debug, info, warning, error, critical
-Mentor Comments:
-none
+
 Question 2:
 What is the name of the basic logging utility function for setting up your logger?
 
 Your Answer:
 logging.basicConfig(filename, level)
-Mentor Comments:
-none
+
 Question 3:
 How would you set logging to only save critical log messages?
 
