@@ -1,0 +1,34 @@
+Python 3: The Python Environment
+Lesson 1, Quiz 1
+
+Question 1:
+Why should you not cut and paste the code when working in O'Reilly School of Technology courses? 
+
+Your Answer:
+By typing the code by ourselves, we can find our common programming mistakes and freely experiment our ideas, while cutting and pasting the sample code only gives us the result without knowing the process.
+Mentor Comments:
+yes, the neural pathways reinforced by fingers typing are not reinforced by just reading.  Coding is typing.  Just reading results in atrophy.
+Question 2:
+What is a working set?
+
+Your Answer:
+A working set is a concept to group related items together into a contextually relevant representation.
+Mentor Comments:
+none
+Question 3:
+What module and variable name contains command-line arguments?
+
+Your Answer:
+The "sys" module and the "sys.argv" variable
+Mentor Comments:
+none
+Question 4:
+How often should you write tests for your code?
+
+Your Answer:
+I think we should write the testing code and the running code in parallel in order to check the correctness of our code.
+This also make debugging and maintenance easy.
+Mentor Comments:
+short answer:  always
+Overall Comments:
+Well done.  See comments.
