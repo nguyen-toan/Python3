@@ -2,29 +2,46 @@ Python 3: The Python Environment
 Lesson 13, Project 1
 
 Here are your instructions:
-Create a Python3_Homework13 project and assign it to your Python3_Homework working set. In the Python3_Homework13/src folder, create a program named mathquiz.py. In this program, you will create a math quiz. This quiz will ask the user five addition questions adding random integers between 1 and 10 inclusive. Each answer will be timed so you can generate the following time results:
+Create a Python3_Homework13 project and assign it to your Python3_Homework working set. 
+In the Python3_Homework13/src folder, create a program named mathquiz.py. In this program, you will create a math quiz. 
+This quiz will ask the user five addition questions adding random integers between 1 and 10 inclusive. 
+Each answer will be timed so you can generate the following time results:
 
-Time for each question 
-Total time for all questions 
-Average time per question
-This program needs to generate random numbers using Python's random library. You may find the following code snippet useful:
++ Time for each question 
++ Total time for all questions 
++ Average time per question
 
->>> import random>>> random.randrange(1, 10)4>>> random.randrange(1, 10)3
+This program needs to generate random numbers using Python's random library. 
+You may find the following code snippet useful:
+
+>>> import random
+>>> random.randrange(1, 10)
+4
+>>> random.randrange(1, 10)
+3
+
 Your project should meet the following conditions:
-
-You must include a working test_mathquiz.py unittest file that tests at least one function. Each time the test runs, it must present random integers.
++ You must include a working test_mathquiz.py unittest file that tests at least one function. 
++ Each time the test runs, it must present random integers.
 
 Your code must generate output that looks like this:
 
-What is the sum of 6 and 6? 1212 is right!What is the sum of 5 and 4? 99 is right!What is the sum of 4 and 2? 66 is right!What is the sum of 1 and 1? 22 is right!What is the sum of 9 and 2? 111111 is wrong!Question #1 took about 1 seconds to complete and was right.Question #2 took about 1 seconds to complete and was right.Question #3 took about 1 seconds to complete and was right.Question #4 took about 2 seconds to complete and was right.Question #5 took about 2 seconds to complete and was wrong.You took 9 seconds to finish the quizYour average time was 1.8 seconds per question
+What is the sum of 6 and 6? 12
+12 is right!
+What is the sum of 5 and 4? 9
+9 is right!
+What is the sum of 4 and 2? 6
+6 is right!
+What is the sum of 1 and 1? 2
+2 is right!
+What is the sum of 9 and 2? 111
+111 is wrong!
+Question #1 took about 1 seconds to complete and was right.
+Question #2 took about 1 seconds to complete and was right.
+Question #3 took about 1 seconds to complete and was right.
+Question #4 took about 2 seconds to complete and was right.
+Question #5 took about 2 seconds to complete and was wrong.
+You took 9 seconds to finish the quiz
+Your average time was 1.8 seconds per question
+
 Submit mathquiz.py and test_mathquiz.py when your programs are working to your satisfaction.
-
-
---------------------------------------------------------------------------------
-
-Your Comment:
-no comment given
-Items Handed In
-Open Project Handed In 
-Overall Comments:
-Excellent.  Lots of serious testing.
