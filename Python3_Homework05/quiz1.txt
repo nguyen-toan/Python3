@@ -1,0 +1,19 @@
+Python 3: The Python Environment
+Lesson 5, Quiz 1
+
+Question 1:
+Provide a new regular expression that will find three adjacent digits, different from the one you provided in last lesson's homework. Include your previous answer.
+Your Answer:
+New answer: r"\d{3}"
+Previous answer: r"\d\d\d"
+Mentor Comments:
+none
+Question 2:
+What is the difference between re.match() and re.search()?
+
+Your Answer:
+re.match() matches only from the beginning of the string, while re.search() checks for a match anywhere in the string
+Mentor Comments:
+none
+Overall Comments:
+All good.
