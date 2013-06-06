@@ -1,0 +1,26 @@
+Python 3: The Python Environment
+Lesson 4, Quiz 1
+
+Question 1:
+Fundamentally, what do regular expressions do?
+
+Your Answer:
+Fundamentally, regular expressions provide a concise and flexible means for matching strings of text.
+Mentor Comments:
+none
+Question 2:
+What is a common shortened name for regular expressions? 
+
+Your Answer:
+regex
+Mentor Comments:
+or regexp
+Question 3:
+What is the name of Python's regular expression library? 
+
+Your Answer:
+re
+Mentor Comments:
+none
+Overall Comments:
+Excellent.
