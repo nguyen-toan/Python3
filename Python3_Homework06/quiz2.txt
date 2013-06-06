@@ -4,11 +4,9 @@ Lesson 6, Quiz 2
 Question 1:
 How would you write a compiled regular expression to find the name "John Smith" in case-insensitive format?
 
-
 Your Answer:
 re.compile(r"John Smith", re.IGNORECASE)
-Mentor Comments:
-none
+
 Question 2:
 How would you rewrite the compiled regular expression above to include verbose comments?
 
@@ -23,11 +21,8 @@ This isn't working to find "John Smith", yet it's finding "JohnSmith".  How migh
 >>> m.group()
 'JohnSmith'
 
->>> m = re.search(regex, "One of the great railroad tycoons, John Smith, move to Montana in the 1800s.")
->>> m  # None 
 Overall Comments:
 Q2 needs more testing.  Ignoring whitespace has consequences for having them in the pattern.
-
 ----
 
 Your Answer:
