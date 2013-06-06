@@ -1,0 +1,37 @@
+Python 3: The Python Environment
+Lesson 9, Project 1
+
+Here are your instructions:
+Create a Pydev project named Python3_Homework09 and assign it to your Python3_Homework working set. In Python3_Homework09/src, create a program named centipede.py, including a class named "Centipede." This class has the following requirements:
+
+1. Once instantiated if called with a value, it appends that argument to an internal list:
+>>> from centipede import Centipede>>> ralph = Centipede()>>> ralph('pretzel')>>> ralph.stomach['pretzel']
+2. If you print() the class, it returns a comma-delimited string of the internal list:
+
+>>> ralph('pickles') >>> print(ralph)'pretzel,pickles'
+3. Each time an attribute is set on the centipede object, it appends the name of the attribute to another internal list:
+
+>>> ralph.shoes = 100 >>> ralph.hat = 1>>> ralph.legs['shoes', 'hat']
+4. The representation of the centipede object must be a comma-delimited string of this second internal list. 
+
+>>> ralph'shoes,hat'
+5. The legs and stomach attributes should be protected against having their values reset from outside. They're "internal use only" when it comes to changing them, and an AttributeError should be raised if attempts are made to set them. 
+
+>>> ralph.legs = 3
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "V:\workspace\Python3_Homework09\src\centipede.py", line 15, in __setattr__
+    raise AttributeError("{0} is for internal use only".format(key))
+AttributeError: legs is for internal use only
+Copy and include this test_centipede.py unittest file, which your centipede program should pass:
+
+import unittestfrom centipede import Centipedeclass 
+TestBug(unittest.TestCase):    def test_stomach(self):        ralph = Centipede()         ralph('chocolate')         ralph('bbq')        ralph('cookies')         ralph('salad')         self.assertEqual(ralph.__str__(), 'chocolate,bbq,cookies,salad')    def test_legs(self):        ralph = Centipede()        ralph.friends = ['Steve', 'Daniel', 'Guido']        ralph.favorite_show = "Monty Python's Flying Circus"        ralph.age = '31'        self.assertEqual(ralph.age, '31', "ralph doesn't know how old he is")        self.assertEqual(ralph.__repr__(), 'friends,favorite_show,age')  
+    def test_protected(self):
+        ralph = Centipede()
+        self.assertRaises(AttributeError, setattr, ralph, "legs", [])
+        self.assertRaises(AttributeError, setattr, ralph, "stomach", [])
+if __name__ == "__main__": unittest.main()  
+
+Overall Comments:
+Very nice.  Good clear code.
