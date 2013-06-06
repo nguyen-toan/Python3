@@ -1,0 +1,28 @@
+Python 3: The Python Environment
+Lesson 2, Quiz 1
+
+Question 1:
+What is a good way to manage data and its custom behaviors across multiple programs?
+
+Your Answer:
+It is to define all the behaviors in a class definition, making them readily available for the data to apply.
+Mentor Comments:
+yes, use objects to store data and behaviors.
+Question 2:
+What is a bunch class?
+
+Your Answer:
+A bunch class is a class which takes incoming data and saves it as attributes.
+Mentor Comments:
+none
+Question 3:
+Should you include a test for code inside the main program, and why or why not?
+
+Your Answer:
+If the test is small, it is ok to include inside the main program.
+But when testing is not required and the test's size is big, it is better to put the testing code into a seperate module in order to not cause additional work when running the main program.
+
+Mentor Comments:
+none
+Overall Comments:
+Excellent.  One comment.
