@@ -1,0 +1,37 @@
+Python 3: The Python Environment
+Lesson 12, Quiz 1
+
+Question 1:
+Which techniques can be used to receive input from the command line?
+
+Your Answer:
+1. Using "sys.argv"
+2. Using "optparse" library
+Mentor Comments:
+also 'argparse' these days
+Question 2:
+If parser = OptionParser(), how do you add more options?
+Your Answer:
+parser.add_option()
+Mentor Comments:
+none
+Question 3:
+How do you call for help using optparse?
+Your Answer:
+Run the program with the "-h" argument
+Mentor Comments:
+none
+Question 4:
+Does the program run normally when you call for help as in the last answer?
+Your Answer:
+No, Python programs do not run any code except to produce the help text when the user calls for help.
+Mentor Comments:
+none
+Question 5:
+How do you create a parser error?
+Your Answer:
+By calling "parser.error()"
+Mentor Comments:
+none
+Overall Comments:
+Well done.  One comment.  Argparse is gradually displacing optparse, maybe.
