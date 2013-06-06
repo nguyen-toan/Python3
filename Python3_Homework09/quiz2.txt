@@ -1,0 +1,21 @@
+Python 3: The Python Environment
+Lesson 9, Quiz 2
+
+Question 1:
+What is a class that only possesses behaviors, not data and is meant to be inherited rather than instantiated on its own?
+
+Your Answer:
+mixin class
+Mentor Comments:
+none
+
+Question 2:
+What method do you use to make an object act like a function?
+
+
+Your Answer:
+__call__()
+Mentor Comments:
+none
+Overall Comments:
+Excellent.
