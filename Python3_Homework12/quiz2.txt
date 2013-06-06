@@ -1,0 +1,31 @@
+Python 3: The Python Environment
+Lesson 12, Quiz 2
+
+Question 1:
+What is the name of Python's configuration file library?
+Your Answer:
+configparser
+Mentor Comments:
+none
+Question 2:
+What are some advantages that the INI format has over XML or JSON?
+Your Answer:
+INI format is quite easy for humans to read and for machine it is as fast as the others to parse and interpret.
+It is also convenient when dealing with key/value pair parameters.
+Mentor Comments:
+none
+Question 3:
+How do you comment out a line of an INI file?
+Your Answer:
+Using the "#" character like the way we comment out in Python programs.
+Mentor Comments:
+none
+Question 4:
+What extension should you use for your setting files? What extensions should you not use?
+Your Answer:
+For setting files we should use extensions such as .ini, .config, .cfg .
+We should avoid using extensions which are not common for setting files and easy to mistake with other program extensions.
+Mentor Comments:
+none
+Overall Comments:
+Excellent.
