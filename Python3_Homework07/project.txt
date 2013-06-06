@@ -1,0 +1,36 @@
+Python 3: The Python Environment
+Lesson 7, Project 1
+
+Here are your instructions:
+Create a Python3_Homework07 project and assign it to your Python3_Homework working set. In the Python3_Homework07/src folder, create a program named furnishings.py that includes a Furnishing class. During instantiation, this class should ask for a "room" argument. Then, create the following classes that inherit from the Furnishing class: Sofa, Bookshelf, Bed, and Table.
+
+Use the built-in list type to record the furniture in your own home that matches the classes above. So for example, you might have:
+
+>>> from furnishings import * >>> home = [] >>> home.append(Bed('Bedroom'))>>> home.append(Sofa('Living Room')) 
+Now, write a map_the_home() function to convert that to a built-in dict type where the rooms are the individual keys and the associated value is the list of furniture for that room. If we ran that code against what we display in our command line, we might see:
+
+>>> map_the_home(home){'Bedroom': [<__main__.Bed object at 0x39f3b0>], 'Living Room': [<__main__.Sofa object at 0x39f3b0>]} 
+Also write a counter() function that prints the types of furniture and how many there are of each type. The results, based on our example:
+
+>>> counter(home)Beds: 1Bookshelves: 0Sofas: 1Tables: 0
+Your project should meet the following conditions:
+The program should be able to produce the same results as the list above. 
+You should include a test_furnishings.py program that tests the map_the_home() function.
+Submit furnishings.py and test_furnishings.py when they are working to your satisfaction.
+
+Overall Comments:
+Good job.
+
+Your tests might even reach into the lists in map_home and check the type of 
+individual elements, as demonstrated here:
+
+    def test_map(self):
+        self.home = []
+        self.home.append(Bed('Bedroom'))
+        self.home.append(Sofa('Living Room'))
+        self.home.append(Table('Bedroom'))
+
+        mapping = map_the_home(self.home)
+        self.assertTrue(isinstance(mapping['Bedroom'][0], Bed))
+        self.assertTrue(isinstance(mapping['Living Room'][0], Sofa))
+        self.assertTrue(isinstance(mapping['Bedroom'][1], Table))  
