@@ -5,33 +5,25 @@ Question 1:
 What are the three commonly held fundamental concepts of object-oriented programming?
 Your Answer:
 Encapsulation, Inheritance, Polymorphism
-Mentor Comments:
-none
+
 Question 2:
 What is inheritance?
 
-
-
 Your Answer:
 Inheritance is the "is-a" relationship between a subclass and a base class which the subclass is inherited from.
-Mentor Comments:
-none
+
 Question 3:
 If Encapsulation is the idea that the only way to access or change the data inside an object is by calling its methods, what is Python's take on it?
 Your Answer:
 Property
+
 Mentor Comments:
 right.  Python is very liberal by design in letting attributes be set and read directly, without
 any mediation by methods, but if setters and getters are integral to your design and/or philosophy
 then the property mechanism is there to help
+
 Question 4:
 What is the method resolution order for class Puppy(Dog, Young, Untrained)? 
 
-
-
 Your Answer:
 Puppy - Dog - Young - Untrained
-Mentor Comments:
-none
-Overall Comments:
-Well done.  See comments.
