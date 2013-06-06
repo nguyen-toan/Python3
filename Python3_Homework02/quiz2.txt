@@ -1,0 +1,37 @@
+Python 3: The Python Environment
+Lesson 2, Quiz 2
+
+Question 1:
+What is masking?
+Your Answer:
+When a method is overrode by an attribute with the same name, we can say that the instance's attribute is masking the class's method.
+Mentor Comments:
+none
+Question 2:
+What do the getattr, hasattr and setattr functions do?
+Your Answer:
+"getattr" returns the value of the named attribute of the object.
+"hasattr" returns True if the argument string is the name of one of the object’s attributes and False if not.
+"setattr" assigns the value to the attribute in the object.
+Mentor Comments:
+none
+Question 3:
+What is critical in creating an API? 
+
+Your Answer:
+It is quality documentation. Without it, APIs are impossible to use.
+Mentor Comments:
+none
+Question 4:
+In "class Monty(Cleese, Chapman, Idle, Palin)" which inherited class has precedence ? 
+
+Chapman 
+Idle 
+Palin 
+None of the above.
+Your Answer:
+4. None of the above
+Mentor Comments:
+none
+Overall Comments:
+All good.
