@@ -1,0 +1,27 @@
+Python 3: The Python Environment
+Lesson 11, Project 1
+
+Here are your instructions:
+Create a Python3_Homework11 project and assign it to your Python3_Homework working set. In the Python3_Homework11/src folder, copy property_address.py and test_property_address.py from the last project.
+
+Your project should meet the following conditions:
+
+property_address.py must append messages such as the following to a logfile named property_address.log each time test_property_address.py is run:
+
+property_address.log:
+
+2011-12-05 19:36:14,970 - ERROR - state - STATE exception 
+2011-12-05 19:36:14,970 - INFO - __init__ - Creating a new address 
+2011-12-05 19:36:14,986 - ERROR - zip_code - ZIPCODE exception 
+
+
+Note: Your date and time values will of course vary. 
+
+Submit property_address.py and test_property_address.py when they are working to your satisfaction.
+
+Your Comment:
+no comment given
+Items Handed In
+Open Project Handed In 
+Overall Comments:
+Excellent.
