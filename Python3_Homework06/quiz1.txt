@@ -1,0 +1,21 @@
+Python 3: The Python Environment
+Lesson 6, Quiz 1
+
+Question 1:
+What are some advantages of compiled regular expression methods over re module functions?
+
+Your Answer:
+- Better performance over gigantic strings
+- Code is more compact, more readable and more usable
+Mentor Comments:
+also more settings available, such as re.IGNORECASE
+Question 2:
+How would you compile the regular expression "\d{3}"?
+
+
+Your Answer:
+re.compile(r"\d{3}")
+Mentor Comments:
+none
+Overall Comments:
+Well done.  See comment.
