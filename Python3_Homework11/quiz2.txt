@@ -1,0 +1,29 @@
+Python 3: The Python Environment
+Lesson 11, Quiz 2
+
+Question 1:
+What is another way to set the level of a logger besides the basicConfig() function?
+
+Your Answer:
+Using setLevel() is another way.
+For example:
+myLog = logging.getLogger('myLogger')
+myLog.setLevel(logging.DEBUG)
+Mentor Comments:
+none
+Question 2:
+What is a common way to display the time of a log message?
+
+Your Answer:
+Using '%(asctime)s' in the logging format
+Mentor Comments:
+none
+Question 3:
+What does '%(lineno)d %(levelname)s' display in a log message?
+
+Your Answer:
+It displays the line number and text logging level for the message
+Mentor Comments:
+none
+Overall Comments:
+Perfect.
