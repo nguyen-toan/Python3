@@ -33,10 +33,3 @@ http://wiki.wireshark.org/Development/LibpcapFileFormat.
 Print the timestamp for each packet in seconds and microseconds.
 
 Submit wiretimes.py when it is working to your satisfaction.
-
-Your Comment:
-no comment given
-Items Handed In
-Open Project Handed In 
-Overall Comments:
-Yes, you have done well.  Good work.
