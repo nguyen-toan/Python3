@@ -1,0 +1,44 @@
+Python 3: The Python Environment
+Lesson 3, Quiz 1
+
+Question 1:
+What is the difference between an iterator and an iterable?
+
+Your Answer:
+An iterable is something we can iterate over, while an iterator is what the interpreter uses to do the iteration.
+
+
+Mentor Comments:
+iterators are guaranteed to have __iter__ and __next__ methods.
+Question 2:
+What is a generator function and what is its advantage?
+
+Your Answer:
+A generator function is a function which returns an iterator. 
+A generator allows us to create sequence values one at a time, so there is no need to store all of them. Hence the program will uses less storage and operate more quickly, especially when the number of objects becomes large.
+Mentor Comments:
+none
+Question 3:
+Internally, what type of exception does Old-Style Iteration throw? 
+
+AttributeError 
+IndexError 
+StopIteration 
+None of the above
+Your Answer:
+2. IndexError
+Mentor Comments:
+none
+Question 4:
+Internally, what type of exception does New-Style Iteration throw?
+
+AttributeError 
+IndexError 
+StopIteration 
+None of the above
+Your Answer:
+3. StopIteration
+Mentor Comments:
+none
+Overall Comments:
+All good.  See comment.
