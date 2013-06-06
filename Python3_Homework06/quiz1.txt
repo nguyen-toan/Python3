@@ -9,13 +9,9 @@ Your Answer:
 - Code is more compact, more readable and more usable
 Mentor Comments:
 also more settings available, such as re.IGNORECASE
+
 Question 2:
 How would you compile the regular expression "\d{3}"?
 
-
 Your Answer:
 re.compile(r"\d{3}")
-Mentor Comments:
-none
-Overall Comments:
-Well done.  See comment.
